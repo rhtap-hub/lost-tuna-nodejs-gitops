@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: lost-tuna-nodejs-repository
+spec:
+  url: https://github.com/rhtap-hub/lost-tuna-nodejs
